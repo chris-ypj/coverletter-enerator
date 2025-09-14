@@ -7,4 +7,4 @@ COPY . .
 ENV PORT=8000
 EXPOSE 8000
 
-CMD ["streamlit", "run", "cover-letter-app/app.py", "--server.pgit remote -vort", "8000", "--server.address", "0.0.0.0"]
+CMD ["streamlit", "run", "coverletter-app/app.py", "--server.pgit remote -vort", "8000", "--server.address", "0.0.0.0"]
