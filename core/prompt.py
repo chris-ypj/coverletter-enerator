@@ -1,4 +1,3 @@
-
 from typing import List, Dict
 
 def build_prompt(job_ad: str,
@@ -20,9 +19,7 @@ def build_prompt(job_ad: str,
         proj_lines.append(f"- {name} — tech: {tech}; impact: {impact}")
     proj_block = "\n".join(proj_lines) if proj_lines else "- (none)"
     skills_str = ", ".join(skills) if skills else "(none)"
-    header = ""
-    if include_header:
-        header = f"{candidate_name}\n{city}\n{contact_line}\n\n"
+    header = f"{candidate_name}\n{city}\n{contact_line}\n\n" if include_header else ""
 
     prompt = f"""
 You are an expert cover-letter writer. Write a tailored, ATS-friendly cover letter.

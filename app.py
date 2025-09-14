@@ -1,4 +1,4 @@
-
+# app.py
 import streamlit as st
 from ui.layout import sidebar_inputs, main_tabs
 
