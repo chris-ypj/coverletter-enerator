@@ -7,4 +7,4 @@ COPY . .
 ENV PORT=8000
 EXPOSE 8000
 
-CMD ["streamlit", "run", "coverletter-generator/app.py", "--server.port=8000", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "coverletter-generator/app.py", "--server.port=${PORT}", "--server.address=0.0.0.0"]
