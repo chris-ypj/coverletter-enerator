@@ -32,5 +32,7 @@ export OPENAI_API_KEY="sk-..."
 
 streamlit run app.py
 ```
+<img width="1452" height="723" alt="image" src="https://github.com/user-attachments/assets/1523c576-8cdc-43e2-81fb-9df3ece8e1ef" />
+
 <img width="1502" height="747" alt="image" src="https://github.com/user-attachments/assets/f59962b8-a3aa-4f7b-a7cc-130d9927af84" />
 
